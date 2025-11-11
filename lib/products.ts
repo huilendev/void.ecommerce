@@ -1,0 +1,133 @@
+export interface Product {
+  id: string
+  name: string
+  description: string
+  price: number
+  image: string
+  category: "tops" | "bottoms" | "outerwear"
+  sizes: string[]
+  colors: string[]
+}
+
+export const products: Product[] = [
+  {
+    id: "1",
+    name: "Essential Oversized T-Shirt",
+    description: "Classic white tee in premium cotton",
+    price: 45,
+    image: "/minimalist-white-oversized-t-shirt-editorial-photo.jpg",
+    category: "tops",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["White", "Cream", "Black", "Sage"],
+  },
+  {
+    id: "2",
+    name: "Linen Button-Up Shirt",
+    description: "Lightweight linen shirt perfect for layering",
+    price: 65,
+    image: "/minimalist-linen-shirt-neutral-beige-editorial-pho.jpg",
+    category: "tops",
+    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+    colors: ["Beige", "White", "Taupe"],
+  },
+  {
+    id: "3",
+    name: "Tailored Trousers",
+    description: "High-waisted tailored trousers in neutral tones",
+    price: 85,
+    image: "/minimalist-trousers-tailored-neutral-editorial-pho.jpg",
+    category: "bottoms",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Charcoal", "Cream", "Camel"],
+  },
+  {
+    id: "4",
+    name: "Wide-Leg Trousers",
+    description: "Comfortable and elegant wide-leg silhouette",
+    price: 79,
+    image: "/minimalist-wide-leg-trousers-neutral-linen-editori.jpg",
+    category: "bottoms",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["White", "Sand", "Black"],
+  },
+  {
+    id: "5",
+    name: "Wool Blend Sweater",
+    description: "Soft wool sweater with timeless appeal",
+    price: 95,
+    image: "/minimalist-wool-sweater-cream-editorial-fashion-ph.jpg",
+    category: "tops",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Cream", "Gray", "Camel", "Black"],
+  },
+  {
+    id: "6",
+    name: "Minimal Long Sleeve Tee",
+    description: "Versatile long sleeve basic in cotton",
+    price: 52,
+    image: "/minimalist-long-sleeve-shirt-white-editorial-photo.jpg",
+    category: "tops",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["White", "Black", "Cream"],
+  },
+  {
+    id: "7",
+    name: "Lightweight Overshirt",
+    description: "Layering piece in natural linen blend",
+    price: 72,
+    image: "/minimalist-overshirt-linen-neutral-editorial-photo.jpg",
+    category: "tops",
+    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+    colors: ["Taupe", "White", "Sage"],
+  },
+  {
+    id: "8",
+    name: "Straight Leg Denim",
+    description: "Raw denim in classic straight fit",
+    price: 98,
+    image: "/minimalist-straight-leg-denim-raw-neutral-editoria.jpg",
+    category: "bottoms",
+    sizes: ["28", "29", "30", "31", "32", "33", "34"],
+    colors: ["Raw Denim", "Black"],
+  },
+  {
+    id: "9",
+    name: "Wool Coat",
+    description: "Oversized wool coat for every season",
+    price: 185,
+    image: "/minimalist-wool-coat-oversized-neutral-editorial-p.jpg",
+    category: "outerwear",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Charcoal", "Camel", "Black"],
+  },
+  {
+    id: "10",
+    name: "Linen Overshirt Jacket",
+    description: "Structured linen jacket for layering",
+    price: 88,
+    image: "/minimalist-linen-jacket-structured-neutral-editori.jpg",
+    category: "outerwear",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Cream", "Taupe", "White"],
+  },
+  {
+    id: "11",
+    name: "Transitional Jacket",
+    description: "Versatile jacket for spring and fall",
+    price: 125,
+    image: "/minimalist-transitional-jacket-neutral-tones-edito.jpg",
+    category: "outerwear",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Sage", "Camel", "Charcoal"],
+  },
+  {
+    id: "12",
+    name: "Premium Cotton Basics",
+    description: "Set of 3 essential basic tees",
+    price: 99,
+    image: "/minimalist-cotton-basics-white-neutral-editorial-p.jpg",
+    category: "tops",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["White", "Cream", "Black"],
+  },
+]
